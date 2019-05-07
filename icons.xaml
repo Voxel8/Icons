@@ -225,14 +225,14 @@
           <Canvas.RenderTransform>
             <TranslateTransform X="0" Y="-265"/>
           </Canvas.RenderTransform>
-          <Rectangle Canvas.Left="1" Canvas.Top="266" Width="30" Height="30" RadiusX="3" RadiusY="3" StrokeThickness="2" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Rectangle Canvas.Left="1" Canvas.Top="266" Width="30" Height="18" RadiusX="3" RadiusY="3" StrokeThickness="2" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="5.7" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="5.7" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="15.3" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="15.3" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="24.9" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
-          <Ellipse Canvas.Left="24.9" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="#FF000000" StrokeMiterLimit="4"/>
+          <Rectangle Canvas.Left="1" Canvas.Top="266" Width="30" Height="30" RadiusX="3" RadiusY="3" StrokeThickness="2" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4" />
+          <Rectangle Canvas.Left="1" Canvas.Top="266" Width="30" Height="18" RadiusX="3" RadiusY="3" StrokeThickness="2" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="5.7" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="5.7" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="15.3" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="15.3" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="24.9" Canvas.Top="269.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
+          <Ellipse Canvas.Left="24.9" Canvas.Top="277.6" Width="1.8" Height="1.8" StrokeThickness="1.79999995" Stroke="{DynamicResource TextBrush}" StrokeMiterLimit="4"/>
         </Canvas>
       </Canvas>
       <Canvas.Resources/>
