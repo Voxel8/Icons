@@ -190,10 +190,10 @@
         </Path.Data>
       </Path>
     </Canvas>
-    <TextBlock FontSize="21.33333397" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="{DynamicResource TextBrush}" Canvas.Left="18.377483" Canvas.Top="8.5" Name="text835">
+    <TextBlock FontSize="21.33333397" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="{DynamicResource TextBrush}" Canvas.Left="18.377483" Canvas.Top="8.5">
       <Span FontSize="21.33333397" FontWeight="Bold" FontFamily="sans-serif" FontStyle="normal">R</Span>
     </TextBlock>
-    <TextBlock FontSize="18.66666603" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="#00000000" Canvas.Left="33.526489" Canvas.Top="45.2" Name="text4599">
+    <TextBlock FontSize="18.66666603" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="#00000000" Canvas.Left="33.526489" Canvas.Top="45.2" >
       <Span FontSize="18.66666603">T</Span>
     </TextBlock>
   </Canvas>
@@ -217,10 +217,10 @@
         </Path.Data>
       </Path>
     </Canvas>
-    <TextBlock FontSize="21.33333397" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="{DynamicResource TextBrush}" Canvas.Left="18.377483" Canvas.Top="8.5" Name="text835">
+    <TextBlock FontSize="21.33333397" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="{DynamicResource TextBrush}" Canvas.Left="18.377483" Canvas.Top="8.5">
       <Span FontSize="21.33333397" FontWeight="Bold" FontFamily="sans-serif" FontStyle="normal">L</Span>
     </TextBlock>
-    <TextBlock FontSize="18.66666603" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="#00000000" Canvas.Left="33.526489" Canvas.Top="45.2" Name="text4599">
+    <TextBlock FontSize="18.66666603" FontWeight="Normal" FontFamily="sans-serif" FontStyle="normal" Foreground="#00000000" Canvas.Left="33.526489" Canvas.Top="45.2" >
       <Span FontSize="18.66666603">T</Span>
     </TextBlock>
   </Canvas>
