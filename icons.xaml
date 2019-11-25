@@ -305,4 +305,23 @@
     </Canvas>
   </Canvas>
 </Viewbox>
+
+<Viewbox x:Key="Next" Stretch="Uniform">
+  <Canvas Width="21" Height="21" Canvas.Left="0" Canvas.Top="0">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources/>
+    <Canvas>
+      <Canvas.RenderTransform>
+        <TranslateTransform X="-3" Y="-0.5"/>
+      </Canvas.RenderTransform>
+      <Path Fill="{DynamicResource TextBrush}" StrokeThickness="1">
+        <Path.Data>
+          <PathGeometry Figures="M 20 12.5 C 20 7.813 16.187 4 11.5 4 6.813 4 3 7.813 3 12.5 V 14 H 5 V 12.5 C 5 8.916 7.916 6 11.5 6 15.084 6 18 8.916 18 12.5 V 13 h -4 l 5 5 5 -5 h -4 z" FillRule="EvenOdd"/>
+        </Path.Data>
+      </Path>
+    </Canvas>
+  </Canvas>
+</Viewbox>
 </ResourceDictionary>
