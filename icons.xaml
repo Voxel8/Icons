@@ -1,6 +1,5 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:PowerPmacNC">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 <Viewbox x:Key="Background" Stretch="Uniform">
   <Canvas  Canvas.Left="0" Canvas.Top="0" Width="96" Height="96">
     <Canvas.RenderTransform>
@@ -319,6 +318,25 @@
       <Path Fill="{DynamicResource TextBrush}" StrokeThickness="1">
         <Path.Data>
           <PathGeometry Figures="M 20 12.5 C 20 7.813 16.187 4 11.5 4 6.813 4 3 7.813 3 12.5 V 14 H 5 V 12.5 C 5 8.916 7.916 6 11.5 6 15.084 6 18 8.916 18 12.5 V 13 h -4 l 5 5 5 -5 h -4 z" FillRule="EvenOdd"/>
+        </Path.Data>
+      </Path>
+    </Canvas>
+  </Canvas>
+</Viewbox>
+
+<Viewbox x:Key="Cube" Stretch="Uniform">
+  <Canvas Canvas.Left="0" Canvas.Top="0" Width="100" Height="100">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources/>
+    <Canvas>
+      <Canvas.RenderTransform>
+        <TranslateTransform X="0" Y="-952.36218"/>
+      </Canvas.RenderTransform>
+      <Path Fill="{DynamicResource TextBrush}">
+        <Path.Data>
+          <PathGeometry Figures="m 49.75 961.37851 a 3.0003 3.0003 0 0 0 -0.9688 0.25 l -36 16 a 3.0003 3.0003 0 0 0 -1.7812 2.75 v 43.99999 a 3.0003 3.0003 0 0 0 1.7812 2.7188 l 36 16 a 3.0003 3.0003 0 0 0 2.4376 0 l 36 -16 A 3.0003 3.0003 0 0 0 89 1024.3785 v -43.99999 a 3.0003 3.0003 0 0 0 -1.7812 -2.75 l -36 -16 a 3.0003 3.0003 0 0 0 -1.4688 -0.25 z m 0.25 6.25 28.625 12.75 L 50 993.09731 21.375 980.37851 Z m -33 17.3438 30 13.3437 v 37.43749 l -30 -13.3438 z m 66 0 v 37.43739 l -30 13.3438 v -37.43749 z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
     </Canvas>
